@@ -1,0 +1,15 @@
+@keyframes example
+			{
+				0% { color: yellow; font-size: 30px; height: 100%; width: 100%;}
+				50% { top: -30; left: 500px;}
+				100% { top: -30px; left: 0;}
+			}
+#id1
+			{
+				position: relative;
+				font-size: 30px;
+				font-family: Times,serif;
+				top: -30px;
+				left: 0;
+				animation: example 3s ease;
+			}

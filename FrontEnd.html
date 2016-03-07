@@ -1,0 +1,129 @@
+<!-- DBA Front end -->
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<title>KRANzaa Review</title>
+		<link rel = "icon" type = "image/gif" href = "icon.jpg"></link>
+		<style>
+		
+			body
+			{
+				margin-top: 0;
+				margin-right: auto;
+				margin-left: auto;
+				padding: auto;
+				background-color: rgb(150,150,150);
+			}
+			/* Topbar style */
+			ul#uList
+			{
+				position: fixed;
+				top: 0;
+				margin: 0;
+				padding: 0;
+				background-color: black;
+				width: 100%;
+				overflow: hidden;
+				text-align: center;
+				height: 30px;	
+			}
+			/* Topbar list items */
+			li#list
+			{
+				display: inline;
+				margin-right: auto;
+				margin-left: auto;
+				text-align: center;
+			}
+			/* Topbar links */
+			li a#pList:link
+			{
+				padding: 18px 14px 7px;
+				font-family: Times, serif;
+				font-size: 25px;
+				color: white;
+				text-align: center;
+				text-decoration: none;
+			}
+			li a#pList:visited
+			{
+				color: white;
+				text-decoration: none;
+			}
+			li a#pList:hover
+			{
+				font-family: Times, serif;
+				font-size: 25px;
+				color: white;
+				background-color: rgb(0,175,255);
+				text-decoration: underline;
+			}
+			/* Home*/
+			div#home
+			{	
+				float: left;
+				background-image:url(Images\\gadgets.jpg);
+				top: 0; 
+				left: 0; 
+				height: 800px;
+				border-bottom: 5px solid black;	
+			}
+
+			div#about
+			{
+				float: left;
+				background-image: url(Images\\about.jpg);
+				top: 805px;
+				left: 0;
+				width: 100%;
+				height: 800px;
+				border-bottom: 5px solid black;
+			}
+		</style>
+
+	</head>
+	
+	<body>
+
+				<ul id = "uList" style = "list-style-type: none;">
+					<li>
+						<a href = "#home" style = "color: yellow; font-family: Times; float: left; font-size: 25px"><b>KRANzaa</b></a>
+					</li>
+					<li id = "list">
+							<a id = "pList" href = "#home">Home</a>
+					</li>
+					<li id = "list">
+							<a id = "pList" href = "#about">About Products</a>
+					</li>
+					<li id = "list">
+							<a id = "pList" href = "#reviews">Reviews</a>
+					</li>
+					<li id = "list" style = "float: right">
+							<a id = "pList" href = "LogReg.html" target = "_self">Login/Register</a>
+					</li>
+				</ul>
+
+		<div id = "home">
+			<p style = "font-family: Times; font-size: 75px; text-align: center; color: white"><u><b>Welcome to KRANzaa Review</b></u></p>
+			<p style = "font-family: Times; font-size: 50px; padding-left: 100px; padding-right: 100px; color: white">	
+				Welcome to the only place for the reviews of your favourite gadgets. Feel free to express your queries, concerns and questions about gadgets of your choice.
+				We offer user reviews for a number of products.
+			</p>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<p style = "font-family: Times, serif; font-size: 15px; text-align: right; color: white">KRANzaa  Review&copy; is a registered product of KRANzaa&trade; group.</p>	
+		</div>
+		
+		<div id = "about">
+			<center>
+				<select>
+					<option value = "null"> -------------------- </option>
+					<option value = "mobile" style = "background-color: blue"> Mobiles </option>
+				</select>
+			</center>
+		</div>
+
+	</body>
+</html>

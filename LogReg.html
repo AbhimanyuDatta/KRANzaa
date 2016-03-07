@@ -1,0 +1,137 @@
+<!-- Login/Register Page-->
+
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		
+		<title>KRANzaa Review Login</title>
+		<link rel = "icon" type = "image/gif" href = "icon.jpg"></link>
+
+		<style>
+			body
+			{
+				background-image: url(Images\\login.jpg);
+				margin-top: 0;
+				margin-left: auto;
+				margin-right: auto;
+				padding: auto;
+			}
+			ul#top
+			{
+				position: fixed;
+				background-color: black;
+				top: 0;
+				margin: 0;
+				padding: 0;
+				height: 30px;
+				width: 100%;
+				overflow: hidden;
+				text-align: center;
+			}
+			li#list
+			{
+				display: inline;
+				margin-left: auto;
+				margin-right: auto;
+				text-align: center;
+			}
+			li a#pList:link
+			{
+				padding: 18px 14px 7px;
+				font-size: 25px;
+				color: white;
+				font-family: Times, serif;
+				text-decoration: none;
+				text-align: center;
+			}
+			li a#pList:visited
+			{
+				color: white;
+				text-decoration: none;
+			}
+			li a#pList:hover
+			{
+				color: white;
+				background-color: rgb(0,175,255);
+				text-decoration: underline;
+			}
+			/* Login*/
+			div#lr
+			{
+				background-color: white;
+				text-align: center;
+				border: 5px solid white;
+				border-radius: 5px;
+				box-shadow: 10px 10px 7px #888888;
+				top: 35px;
+				left: 0;
+				margin: 150px 500px;
+				height: 500px;
+				
+			}
+			li#lli
+			{
+				text-align: center;
+				color: black;
+				font-size: 20px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		
+			<ul id = "top" style = "list-style-type: none; display: inline">
+				<li>
+					<a href = "FrontEnd.html#home" style = "float: left; color: yellow;font-family: Times;font-size: 25px"><u><b>KRANzaa</b></u></a>
+				</li>
+				<li id = "list">
+					<a id = "pList" href = "FrontEnd.html#home">Home</a>
+				</li>
+				<li id = "list">
+					<a id = "pList" href = "FrontEnd.html#about">About Products</a>
+				</li>
+				<li id = "list">
+					<a id = "pList" href = "FrontEnd.html#reviews">Reviews</a>
+				</li>
+			</ul>
+
+		<div id = "lr">
+			<center>
+				<form id = "login">
+				<ul style = "list-style-type: none; text-align: center">
+					<li id = "lli" style = "display: inline">
+						<input type = "radio" name = "logreg" value = "login" onclick="login()" checked>Login</input>
+					</li>
+					<li id = "lli" style = "display: inline">
+						<input type = "radio" name = "logreg" value = "register" onclick="register()">Register</input>
+					</li>
+				</ul>
+				<fieldset>
+				<br><br><br><br><br><br>
+					<p style = "font-family: Times, serif; font-size: 20px">
+						Username : <input type = "text" name = "name" placeholder = "username" required></input>
+					</p><br>
+					<p style = "font-family: Times, serif; font-size: 20px">
+						Password : <input type = "password" name = "password" placeholder="password" required></input>
+					</p><br><br><br><br><br><br>
+					<input type = "submit"></input>
+				</fieldset>
+				</form>
+			</center>
+		</div>
+
+		<script>
+			function login()
+			{
+				
+			}
+			function register()
+			{
+				
+			}
+		</script>
+	</body>
+
+</html>
